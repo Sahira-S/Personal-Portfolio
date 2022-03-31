@@ -213,10 +213,11 @@ h3 {
 
 /* design of background box of the text */
 
-h3 span {
+
+/* h3 span {
     padding-left: 0;
     background-image: linear-gradient(0deg, #DCDCDC 50%, transparent 50%);
-}
+} */
 
 h p {
     color: #777;
@@ -764,7 +765,8 @@ h p {
         left: 0;
     }
     .main.active {
-        left: 100%;
+        left: -100%;
+        /* problem:need to change */
     }
     .main .topbar {
         width: 100%;
